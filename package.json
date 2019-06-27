@@ -1,13 +1,13 @@
 {
   "name": "release-automatic-changelog",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "main": "index.js",
   "repository": "https://github.com/ilyaulyanov/release-automatic-changelog.git",
   "author": "Ilya Ulyanov <ilya.wt@gmail.com>",
   "license": "MIT",
   "scripts": {
     "cli": "conventional-changelog",
-    "ch": "cross-env DEBUG=conventional-github-releaser conventional-github-releaser node ./release.js"
+    "ch": "cross-env DEBUG=conventional-github-releaser node ./release.js"
   },
   "husky": {
     "hooks": {
