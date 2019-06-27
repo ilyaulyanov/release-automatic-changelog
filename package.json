@@ -6,7 +6,7 @@
   "author": "Ilya Ulyanov <ilya.wt@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "cli": "conventional-changelog",
+    "cli": "conventional-changelog -p angular",
     "ch": "cross-env DEBUG=conventional-github-releaser node ./release.js"
   },
   "husky": {
