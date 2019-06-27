@@ -1,3 +1,4 @@
+require('dotenv').config()
 var conventionalGithubReleaser = require("conventional-github-releaser");
 
 var AUTH = {
