@@ -1,3 +1,17 @@
+## [1.0.1](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.0.0...1.0.1) (2019-06-27)
+
+
+### Bug Fixes
+
+* delete yo ([#12](https://github.com/ilyaulyanov/release-automatic-changelog/issues/12)) ([8905ca3](https://github.com/ilyaulyanov/release-automatic-changelog/commit/8905ca3))
+
+
+### Features
+
+* delete bar ([#13](https://github.com/ilyaulyanov/release-automatic-changelog/issues/13)) ([81fad9a](https://github.com/ilyaulyanov/release-automatic-changelog/commit/81fad9a))
+
+
+
 # 1.0.0 (2019-06-27)
 
 
