@@ -5,6 +5,9 @@
   "repository": "https://github.com/ilyaulyanov/release-automatic-changelog.git",
   "author": "Ilya Ulyanov <ilya.wt@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "changelog": "conventional-github-releaser -p angular -r 0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
     "@commitlint/config-conventional": "^8.0.0",
