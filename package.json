@@ -6,10 +6,10 @@
   "author": "Ilya Ulyanov <ilya.wt@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "cli": "conventional-changelog -p angular",
+    "changelog": "conventional-changelog -p angular -s && git add CHANGELOG.md",
     "release": "cross-env DEBUG=conventional-github-releaser node ./release.js",
     "reset": "cross-env node ./delete.js",
-    "postversion": "git push --tags && echo \"Pushed tagged version $npm_package_version!\" && yarn release"
+    "postversion": "yarn changelog && git push --tags && echo \"Pushed tagged version $npm_package_version!\" && yarn release"
   },
   "husky": {
     "hooks": {
