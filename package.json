@@ -1,6 +1,6 @@
 {
   "name": "release-automatic-changelog",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "main": "index.js",
   "repository": "https://github.com/ilyaulyanov/release-automatic-changelog.git",
   "author": "Ilya Ulyanov <ilya.wt@gmail.com>",
@@ -11,8 +11,7 @@
     "github-release": "cross-env DEBUG=conventional-github-releaser node ./release.js",
     "reset": "cross-env node ./delete.js",
     "version": "yarn changelog && git add CHANGELOG.md",
-    "postversion": "git push --follow-tags && yarn github-release",
-    "release": "yarn version --$(yarn bump | sed -n 3p)"
+    "postversion": "git push --follow-tags && yarn github-release"
   },
   "husky": {
     "hooks": {
