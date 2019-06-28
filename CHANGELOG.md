@@ -1,3 +1,19 @@
+<a name="1.1.4"></a>
+## [1.1.4](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.1.3...1.1.4) (2019-06-28)
+
+
+### Bug Fixes
+
+* delete mod ([#15](https://github.com/ilyaulyanov/release-automatic-changelog/issues/15)) ([8a99e99](https://github.com/ilyaulyanov/release-automatic-changelog/commit/8a99e99))
+* remove feature ([#17](https://github.com/ilyaulyanov/release-automatic-changelog/issues/17)) ([63f2e7d](https://github.com/ilyaulyanov/release-automatic-changelog/commit/63f2e7d))
+
+
+### Performance Improvements
+
+* faster boop ([#16](https://github.com/ilyaulyanov/release-automatic-changelog/issues/16)) ([f12fd78](https://github.com/ilyaulyanov/release-automatic-changelog/commit/f12fd78))
+
+
+
 <a name="1.1.3"></a>
 ## [1.1.3](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.1.2...1.1.3) (2019-06-28)
 
