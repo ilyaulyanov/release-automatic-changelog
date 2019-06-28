@@ -10,7 +10,7 @@
     "release": "cross-env DEBUG=conventional-github-releaser node ./release.js",
     "reset": "cross-env node ./delete.js",
     "version": "yarn changelog && git add CHANGELOG.md",
-    "postversion": "git push --tags && echo \"Pushed tagged version $npm_package_version!\" && yarn release",
+    "postversion": "git push --tags && yarn release",
     "bump": "conventional-recommended-bump -p angular"
   },
   "husky": {
