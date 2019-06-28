@@ -1,3 +1,8 @@
+<a name="1.1.8"></a>
+## [1.1.8](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.1.7...1.1.8) (2019-06-28)
+
+
+
 <a name="1.1.7"></a>
 ## [1.1.7](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.1.6...1.1.7) (2019-06-28)
 
