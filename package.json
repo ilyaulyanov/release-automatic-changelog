@@ -6,11 +6,11 @@
   "author": "Ilya Ulyanov <ilya.wt@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "changelog": "conventional-changelog -p angular -s -i CHANGELOG.md && git add CHANGELOG.md && git commit CHANGELOG.md",
+    "changelog": "conventional-changelog -p angular -s -i CHANGELOG.md && git add CHANGELOG.md",
     "release": "cross-env DEBUG=conventional-github-releaser node ./release.js",
     "reset": "cross-env node ./delete.js",
-    "preversion": "yarn changelog",
-    "postversion": "git push --tags && echo \"Pushed tagged version $npm_package_version!\" && yarn release"
+    "postversion": "git push --tags && echo \"Pushed tagged version $npm_package_version!\" && yarn release",
+    "bump": "conventional-recommended-bump"
   },
   "husky": {
     "hooks": {
@@ -22,6 +22,7 @@
     "@commitlint/config-conventional": "^8.0.0",
     "conventional-changelog-cli": "^2.0.21",
     "conventional-github-releaser": "^3.1.3",
+    "conventional-recommended-bump": "^5.0.0",
     "cross-env": "^5.2.0",
     "dotenv": "^8.0.0",
     "github-remove-all-releases": "^1.0.1",
