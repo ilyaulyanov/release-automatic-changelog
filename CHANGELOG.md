@@ -1,3 +1,13 @@
+<a name="1.1.3"></a>
+## [1.1.3](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.1.2...1.1.3) (2019-06-28)
+
+
+### Bug Fixes
+
+* package ([4c988f7](https://github.com/ilyaulyanov/release-automatic-changelog/commit/4c988f7))
+
+
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.1.1...1.1.2) (2019-06-28)
 
