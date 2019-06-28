@@ -1,16 +1,17 @@
 {
   "name": "release-automatic-changelog",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "main": "index.js",
   "repository": "https://github.com/ilyaulyanov/release-automatic-changelog.git",
   "author": "Ilya Ulyanov <ilya.wt@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "changelog": "conventional-changelog -p angular -s -i CHANGELOG.md && git add CHANGELOG.md",
+    "changelog": "conventional-changelog -p angular -s -i CHANGELOG.md",
     "release": "cross-env DEBUG=conventional-github-releaser node ./release.js",
     "reset": "cross-env node ./delete.js",
+    "version": "yarn changelog && git add CHANGELOG.md",
     "postversion": "git push --tags && echo \"Pushed tagged version $npm_package_version!\" && yarn release",
-    "bump": "conventional-recommended-bump"
+    "bump": "conventional-recommended-bump -p angular"
   },
   "husky": {
     "hooks": {

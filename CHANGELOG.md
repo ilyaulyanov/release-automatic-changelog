@@ -1,3 +1,14 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.0.4...1.1.0) (2019-06-28)
+
+
+### Features
+
+* add bump package ([5c1deef](https://github.com/ilyaulyanov/release-automatic-changelog/commit/5c1deef))
+* commit changelog ([c30c11f](https://github.com/ilyaulyanov/release-automatic-changelog/commit/c30c11f))
+
+
+
 ## [1.0.3](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.0.2...1.0.3) (2019-06-28)
 
 
