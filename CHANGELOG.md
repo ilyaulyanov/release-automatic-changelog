@@ -1,3 +1,13 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.1.0...1.1.1) (2019-06-28)
+
+
+### Bug Fixes
+
+* add script ([0f1549b](https://github.com/ilyaulyanov/release-automatic-changelog/commit/0f1549b))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.0.4...1.1.0) (2019-06-28)
 
