@@ -9,8 +9,8 @@
     "changelog": "conventional-changelog -p angular -s -i CHANGELOG.md",
     "release": "cross-env DEBUG=conventional-github-releaser node ./release.js",
     "reset": "cross-env node ./delete.js",
-    "version": "yarn changelog && git add CHANGELOG.md && git commit --amend --no-edit",
-    "postversion": "git push --tags && yarn release",
+    "version": "yarn changelog && git add CHANGELOG.md",
+    "postversion": "git push --follow-tags && yarn release",
     "bump": "conventional-recommended-bump -p angular"
   },
   "husky": {
