@@ -7,8 +7,9 @@
   "license": "MIT",
   "scripts": {
     "cli": "conventional-changelog -p angular",
-    "ch": "cross-env DEBUG=conventional-github-releaser node ./release.js",
-    "reset": "cross-env node ./delete.js"
+    "release": "cross-env DEBUG=conventional-github-releaser node ./release.js",
+    "reset": "cross-env node ./delete.js",
+    "postversion": "git push --tags && && echo \"Pushed tagged version $npm_package_version!\" && yarn release"
   },
   "husky": {
     "hooks": {

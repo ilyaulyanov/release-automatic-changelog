@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/ilyaulyanov/release-automatic-changelog/compare/v1.0.0...1.0.2) (2019-06-28)
+
+
+### Features
+
+* rekt ([d6d1e13](https://github.com/ilyaulyanov/release-automatic-changelog/commit/d6d1e13))
+
+
 ## [1.0.1](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.0.0...1.0.1) (2019-06-27)
 
 
@@ -12,7 +20,7 @@
 
 
 
-# 1.0.0 (2019-06-27)
+# [1.0.0](https://github.com/ilyaulyanov/release-automatic-changelog/compare/0d09e68...1.0.0) (2019-06-27)
 
 
 ### Bug Fixes
