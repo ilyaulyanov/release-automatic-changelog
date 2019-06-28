@@ -10,4 +10,4 @@ install:
   - yarn
 
 script:
-  - yarn bump
+  - yarn version --patch
