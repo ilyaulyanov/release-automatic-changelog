@@ -1,3 +1,13 @@
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.1.1...1.1.2) (2019-06-28)
+
+
+### Bug Fixes
+
+* add amend ([c9b8436](https://github.com/ilyaulyanov/release-automatic-changelog/commit/c9b8436))
+
+
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.1.0...1.1.1) (2019-06-28)
 
