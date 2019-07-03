@@ -12,6 +12,8 @@ conventionalGithubReleaser(
     preset: "angular"
   },
   function(err, responses) {
+    console.log(err);
+    console.log(responses);
     console.log("released new version");
   }
 );
