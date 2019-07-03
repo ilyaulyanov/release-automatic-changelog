@@ -1,0 +1,1 @@
+yarn version --$(yarn recommended-bump | sed -n 3p)

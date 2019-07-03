@@ -6,7 +6,7 @@
   "author": "Ilya Ulyanov <ilya.wt@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "bump": "conventional-recommended-bump -p angular",
+    "recommended-bump": "conventional-recommended-bump -p angular",
     "changelog": "conventional-changelog -p angular -s -i CHANGELOG.md",
     "github-release": "cross-env DEBUG=conventional-github-releaser node ./release.js",
     "reset": "cross-env node ./delete.js",
