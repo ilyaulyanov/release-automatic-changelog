@@ -1,6 +1,6 @@
 {
   "name": "release-automatic-changelog",
-  "version": "1.1.19",
+  "version": "1.1.20",
   "main": "index.js",
   "repository": "https://github.com/ilyaulyanov/release-automatic-changelog.git",
   "author": "Ilya Ulyanov <ilya.wt@gmail.com>",
