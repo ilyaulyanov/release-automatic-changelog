@@ -1,3 +1,13 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.1.20...1.2.0) (2019-07-15)
+
+
+### Features
+
+* change file ([a41d203](https://github.com/ilyaulyanov/release-automatic-changelog/commit/a41d203))
+
+
+
 <a name="1.1.20"></a>
 ## [1.1.20](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.1.19...1.1.20) (2019-07-15)
 
