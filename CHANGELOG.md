@@ -1,3 +1,18 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.2.0...2.0.0) (2019-07-29)
+
+
+### Features
+
+* great new feature ([efb09eb](https://github.com/ilyaulyanov/release-automatic-changelog/commit/efb09eb))
+
+
+### BREAKING CHANGES
+
+* feature is now live
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.1.20...1.2.0) (2019-07-15)
 
