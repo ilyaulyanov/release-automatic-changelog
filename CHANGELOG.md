@@ -1,3 +1,13 @@
+<a name="2.1.0"></a>
+# [2.1.0](https://github.com/ilyaulyanov/release-automatic-changelog/compare/2.0.0...2.1.0) (2019-07-29)
+
+
+### Features
+
+* remove file ([feae998](https://github.com/ilyaulyanov/release-automatic-changelog/commit/feae998))
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/ilyaulyanov/release-automatic-changelog/compare/1.2.0...2.0.0) (2019-07-29)
 
