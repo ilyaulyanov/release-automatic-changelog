@@ -1,6 +1,6 @@
 name: Dependabot branch build
-
-on: push
+on:
+  push:
     branches:
       - 'dependabot/*'
 
