@@ -1,7 +1,7 @@
 name: Dependabot branch build
 
 on: push
-    branches:    
+    branches:
       - 'dependabot/*'
 
 jobs:
