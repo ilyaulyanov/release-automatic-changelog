@@ -1,0 +1,13 @@
+version: 2.1
+
+jobs:
+  my_first_job:
+    docker:
+      - image: circleci/python:3.8
+    steps:
+      - checkout:
+
+      - run:
+          command: echo "test"
+      - deploy:
+        command: ./deploy.sh
