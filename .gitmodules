@@ -1,0 +1,3 @@
+[submodule "procurify-react"]
+	path = procurify-react
+	url = https://github.com/procurify/procurify-react
