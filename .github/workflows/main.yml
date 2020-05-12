@@ -20,6 +20,6 @@ jobs:
 
     # Runs action
     - name: Assign reviwer action
-      uses: ilyaulyanov/action-assign-random-reviewer@v1.0.1
+      uses: ilyaulyanov/action-assign-random-reviewer@v1.0.0
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
