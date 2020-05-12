@@ -19,7 +19,7 @@ jobs:
     - uses: actions/checkout@v2
 
     # Runs action
-    - name: Assign reviwer action
-      uses: ilyaulyanov/action-assign-random-reviewer@v1.0.0
+    - name: Assign reviewer action
+      uses: ilyaulyanov/action-assign-random-reviewer@v1.0.1
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
