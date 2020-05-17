@@ -1,6 +1,0 @@
-labels:
-  dependencies:
-    reviewers:
-      - ilyaulyanov
-    random: true
-    numReviewsPerReviewer: 1
