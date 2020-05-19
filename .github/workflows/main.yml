@@ -4,9 +4,9 @@ name: Assign Reviewer for Dependabot PRs
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
-on:
-  pull_request:
-    types: [opened, reopened]
+on: [pull_request]
+  #pull_request:
+    #types: [opened, reopened]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -20,6 +20,6 @@ jobs:
 
     # Runs action
     - name: Assign reviewer action
-      uses: ilyaulyanov/action-assign-random-reviewer@v1.7.1
+      uses: ilyaulyanov/action-assign-random-reviewer@v1
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
