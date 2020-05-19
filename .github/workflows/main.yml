@@ -20,6 +20,6 @@ jobs:
 
     # Runs action
     - name: Assign reviewer action
-      uses: ilyaulyanov/action-assign-random-reviewer@v1
+      uses: ilyaulyanov/action-assign-random-reviewer@v1.7.1
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
