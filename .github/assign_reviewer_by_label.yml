@@ -1,16 +1,16 @@
 labels:
-  - dependencies:
-      reviewers:
-        - ilyaulyanov
-      random: true
-      numReviewsPerReviewer: 1
-  - webapp:
-      reviewers:
-        - ilyaulyanov
-      random: true
-      numReviewsPerReviewer: 1
-  - ui:
-      reviewers:
-        - ilyaulyanov
-      random: true
-      numReviewsPerReviewer: 1
+  dependencies:
+    reviewers:
+      - ilyaulyanov
+    random: true
+    numReviewsPerReviewer: 1
+  webapp:
+    reviewers:
+      - ilyaulyanov
+    random: true
+    numReviewsPerReviewer: 1
+  ui:
+    reviewers:
+      - ilyaulyanov
+    random: true
+    numReviewsPerReviewer: 1
