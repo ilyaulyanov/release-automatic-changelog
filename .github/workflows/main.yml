@@ -17,9 +17,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-
-    # Runs action
-    - name: Assign reviewer action
-      uses: ilyaulyanov/action-assign-random-reviewer@v1.8.2
-      with:
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+      - name: Assign reviewer action
+        uses: ilyaulyanov/action-assign-random-reviewer@v1.8.2
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
