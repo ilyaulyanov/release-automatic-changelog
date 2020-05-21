@@ -4,3 +4,13 @@ labels:
       - ilyaulyanov
     random: true
     numReviewsPerReviewer: 1
+  webapp:
+    reviewers:
+      - ilyaulyanov
+    random: true
+    numReviewsPerReviewer: 1
+  ui:
+    reviewers:
+      - ilyaulyanov
+    random: true
+    numReviewsPerReviewer: 1
